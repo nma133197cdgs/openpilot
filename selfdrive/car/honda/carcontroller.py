@@ -1,6 +1,4 @@
-from cereal import car
 from collections import namedtuple
-from common.realtime import sec_since_boot
 from selfdrive.boardd.boardd import can_list_to_can_capnp
 from selfdrive.controls.lib.drive_helpers import rate_limit
 from common.numpy_fast import clip
